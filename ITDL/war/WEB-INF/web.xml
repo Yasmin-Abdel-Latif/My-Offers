@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://java.sun.com/xml/ns/javaee"
+xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+	<servlet>
+		<servlet-name>ITDLServletLogin</servlet-name>
+		<servlet-class>com.fci.itdl.controller.ITDLServletLogin</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ITDLServletUpdateOffer</servlet-name>
+		<servlet-class>com.fci.itdl.controller.ITDLServletUpdateOffer</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ITDLServletUpdateAccount</servlet-name>
+		<servlet-class>com.fci.itdl.controller.ITDLServletUpdateAccount</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ITDLServletDeleteOffer</servlet-name>
+		<servlet-class>com.fci.itdl.controller.ITDLServletDeleteOffer</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ITDLServletHome</servlet-name>
+		<servlet-class>com.fci.itdl.controller.ITDLServletHome</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ITDLServletSignup</servlet-name>
+		<servlet-class>com.fci.itdl.controller.ITDLServletSignup</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ITDLServletAddOffer</servlet-name>
+		<servlet-class>com.fci.itdl.controller.ITDLServletAddOffer</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ITDLServletLogin</servlet-name>
+		<url-pattern>/ITDLServletLogin</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ITDLServletUpdateOffer</servlet-name>
+		<url-pattern>/ITDLServletUpdateOffer</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ITDLServletUpdateAccount</servlet-name>
+		<url-pattern>/ITDLServletUpdateAccount</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ITDLServletDeleteOffer</servlet-name>
+		<url-pattern>/ITDLServletDeleteOffer</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ITDLServletHome</servlet-name>
+		<url-pattern>/ITDLServletHome</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ITDLServletSignup</servlet-name>
+		<url-pattern>/ITDLServletSignup</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ITDLServletAddOffer</servlet-name>
+		<url-pattern>/ITDLServletAddOffer</url-pattern>
+	</servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>entryPoint.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>
